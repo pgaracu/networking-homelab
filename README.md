@@ -15,6 +15,8 @@ Questions and recommendations are always welcome!
 
 # Goals
 
+The primary goal is to learn and have fun, and second: 
+
 - Practice enterprise VLAN, trunking, routing, and firewall designs.
 - Build multiple wireless networks mapped to security zones.
 - Configure and troubleshoot copper and optical links.
@@ -27,10 +29,12 @@ Questions and recommendations are always welcome!
 
 # Design principles
 
+I designed this homelab keeping in mind equipment loudness, power efficiency, and power management. I envision a homelab that is:
+
 - Quiet enough to operate in a bedroom.
 - Low power when idle.
 - Standards-based and vendor-diverse.
-- Safe separation between home and experimental networks.
+- Safe and enables separation between home and experimental networks.
 - Locally manageable without requiring cloud services where practical.
 - Reproducible through diagrams, configurations, and lab reports.
 
@@ -41,6 +45,8 @@ Questions and recommendations are always welcome!
 ![Power architecture](diagrams/exported/power.svg)
 
 # Planned experiments
+
+The following experiments cover the topics listed above:
 
 1. VLAN and trunk configuration
 2. Inter-VLAN routing and firewall policy
