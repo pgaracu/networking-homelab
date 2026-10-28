@@ -218,3 +218,30 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Secrets and credentials
+.env
+*.pem
+*.key
+*.p12
+*.pfx
+vault-password*
+secrets.*
+credentials.*
+
+# Ansible secret files
+group_vars/*/vault.yml
+host_vars/*/vault.yml
+
+# Device backups before sanitization
+configs/raw/
+backups/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
